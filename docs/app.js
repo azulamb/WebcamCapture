@@ -117,6 +117,7 @@ class App {
                     '.start::after { content: "▶"; display: block; line-height: 2.75rem; text-align: center; width: 3rem; height: 3rem; border: 0.2rem solid var( --front-color ); border-radius: 50%; box-sizing: border-box; font-size: 1.5rem; }',
                     '.info { display: flex; justify-content: center; align-items: center; }',
                     '.info > div { width: 80%; }',
+                    'video { height: 100%; }',
                     'video, canvas { width: 100%; display: block; }',
                     'canvas { position: absolute; opacity: 0; }',
                     'select, input, button { font-size: 1rem; box-sizing: border-box; border: 1px solid; background: var( --back-color ); color: var( --front-color ); }',
