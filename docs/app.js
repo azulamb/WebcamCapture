@@ -371,7 +371,7 @@ class App {
 });
 document.addEventListener('DOMContentLoaded', () => {
     const app = new App({
-        capture: document.querySelector('web-capture'),
+        capture: document.querySelector('webcam-capture'),
         screenshots: document.querySelector('screenshot-list'),
     });
 });

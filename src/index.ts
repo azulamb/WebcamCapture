@@ -5,9 +5,9 @@
 
 document.addEventListener( 'DOMContentLoaded', () =>
 {
-    const app = new App(
-    {
-        capture: <WebCaptureElement>document.querySelector( 'web-capture' ),
-        screenshots: <ScreenshotListElement>document.querySelector( 'screenshot-list' ),
-    } );
+	const app = new App(
+	{
+		capture: <WebCaptureElement>document.querySelector( 'webcam-capture' ),
+		screenshots: <ScreenshotListElement>document.querySelector( 'screenshot-list' ),
+	} );
 } );
